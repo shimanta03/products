@@ -1,0 +1,151 @@
+/* 
+author: Shimanta Barua
+Email: shimantapciu@gmail.com
+website: designinsect.com
+ */
+
+
+
+/* 
+=== Index ===
+
+1. header
+2. Fusce at          
+3. Facilisis          
+4. Ante donec          
+5. Blandit rhoncus          
+6. Placerat
+7. Footer
+
+ */
+
+ /* global css */
+
+ *{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .no-padding{
+     padding: 0px;
+ }
+
+ h2{
+    font-size: 50px;
+    font-weight: 300;
+ }
+
+h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+p{
+ font-size: 20px; 
+}
+
+ /* theme css */
+ 
+ header{
+     background-color:#edeff1;
+ }
+ .nav-link {
+    color: #31353e;
+    margin-right: 10px;
+    font-weight: 400;
+  }
+  
+  .nav-link.js-scroll-trigger.active {
+    background: #dd4b2b;
+    color: #edeff1;
+    padding: 10px 30px;
+    border-radius: 25px;
+  }
+  
+  .fa-bars {
+    color: #31353e;
+  }
+ .carousel-inner{
+     margin-top:200px;
+ }
+.carousel-inner h5{
+    margin-top: 50px;
+    font-size: 37px;
+    font-weight: 700
+}
+.carousel-inner p{
+    font-size: 15px;
+    color: grey;
+}
+.carousel-inner button{
+    padding: 6px 23px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    margin-top: 10px;
+
+}
+  .phone{
+      text-align: center;
+      padding: 50px 0px;
+      margin-top:50px ;
+  }
+  .phone h4{
+    padding: 62px 0px;
+    font-size: 50px;
+  }
+  .phone h3{
+      padding: 30px 0px;
+  }
+  .phone p{
+      color: rgb(99, 93, 93);
+  }
+.phone button{
+    padding: 6px 23px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+}
+.laptop{
+    text-align: center;
+    padding: 50px 0px;
+}
+.laptop h4{
+    padding: 62px 0px;
+    font-size: 50px;
+}
+.laptop h3{
+    padding: 30px 0px;
+}
+.laptop p{
+    color: rgb(99, 93, 93);
+}
+.laptop a{
+    text-decoration: none;
+    background-color: black;
+    padding: 11px 21px;
+    border-radius: 12px;
+    color: white;
+}
+.photo{
+    padding: 50px 0px;
+    text-align: center;
+}
+.photo h3{
+    padding: 70px 0px;
+    font-size: 50px;
+}
+.photo p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    border-bottom: 5px solid yellow;
+}
